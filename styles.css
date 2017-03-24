@@ -1,13 +1,17 @@
 .container {
   width: 80%;
   margin: 0 auto;
-  text-align: center;
+  /*text-align: center;*/
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.container img {
+.heading {
+  text-align: center;
+}
+
+.logo {
   padding-top: 45px;
-  width: 100%;
+  width: 50%;
 }
 
 .button {
@@ -20,7 +24,25 @@
 }
 
 .button:hover {
-  border: 0;
+  border: 1px solid white;
   background-color: #0564A4;
   color: #fff;
+}
+
+.heading .lead {
+  width: 80%;
+  margin: 25px auto 25px auto;
+}
+
+.title {
+  margin-top: 45px;
+}
+
+.features div {
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+.features hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

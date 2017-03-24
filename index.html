@@ -1,20 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="/favicon.ico" sizes="16x16">
+    <link rel="icon" href="favicon.ico" sizes="16x16">
 
     <title>Moriana</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
   </head>
+
   <body>
+
     <div class="container">
-      <img src="color_logo_transparent_background.png">
-      <br><br><br>
-      <a class="button" href="https://github.com/kdoran/moriana">View project on github</a>
-    </div>
-    <!-- <script src="main.js"></script> -->
+
+      <div class="heading">
+        <img class="logo" src="logo.png">
+        <p class="lead">
+          Web-based software for healthcare supply chain management. Designed for facilites with low network availability. Free and Open Source.
+        </p>
+        <a class="button btn btn-default" target="_blank" href="https://github.com/kdoran/moriana">View project on github</a>
+        <!-- <hr> -->
+        <h1 class="title">Features</h1>
+      </div>
+
+
+      <div class="features">
+
+        <div>
+          <h2>Shipments</h2>
+          <hr>
+          <p class="lead">
+            Receive and transfer stock between suppliers, facilities, and patients.
+          </p>
+          <img class="img-thumbnail" src="transfering.gif" />
+        </div>
+        <hr>
+        <div>
+          <h2>Inventory</h2>
+          <hr>
+          <p class="lead">
+            Manage stock levels at the item batch level, monitoring average monthly consumption, expiring items, and out of stock. Transfer and dispense FEFO.
+          </p>
+          <img class="img-thumbnail" src="stock.gif" />
+        </div>
+        <div>
+          <h2>Offline</h2>
+          <hr>
+          <p class="lead">
+            Work offline or online, with the same application deployed across servers and laptops. If an offline-enabled user losses internet, work can continue locally until connectivity is restored, syncing automatically.
+          </p>
+          <img class="img-thumbnail" src="offline.gif" />
+        </div>
+        <div>
+          <h2>Roles</h2>
+          <hr>
+          <p class="lead">
+            Create individual databases for each facility, transferring stock between & managing staff access on a per-location basis. Staff working offline synchronize only the facilities and data they need.
+          </p>
+          <img class="img-thumbnail" src="access.gif" />
+        </div>
+
+      </div>
+    </div> <!-- features -->
+
+    </div> <!-- container -->
   </body>
 </html>
